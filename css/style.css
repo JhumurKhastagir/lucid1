@@ -1,0 +1,395 @@
+{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,p,ul
+{
+margin: 0;
+padding:0;
+}
+header
+{
+background-image: url(../images/lucid_banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+}
+.height
+{
+    min-height: 90vh;
+    align-items: center;
+}
+header h5{
+color: #008ed6;
+text-transform: uppercase;
+font-size: 12px;
+margin-bottom: 10px;
+}
+header h1{
+color: #ffff; 
+font-size: 40px;   
+margin-bottom: 15px;
+
+}
+header p{
+    color:#999999;
+    margin-bottom: 30px;
+
+}
+header .btn_download{
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: 1px solid #008cc0;
+    padding:12px 20px;
+    background: #008cc0;
+
+}
+header .view_btn{
+    background: transparent;
+    border-color: #999999;
+    margin-left: 10px;
+
+}
+header .view_btn:hover{
+    background-color: #008ed6;
+    color: #ffff;
+    border-color: #008ed6;
+}
+header .btn_download:hover{
+  background-color: transparent;
+  color: #ffff;  
+border-color: #999999;
+}
+.nav-link
+{
+    color: #ffff;
+    text-transform:capitalize;
+    font-size: 14px;
+    position: relative;
+    padding: 0 !important;
+    margin:0 10px;
+}
+.nav-link:hover{
+    color: #fff;
+
+}
+.nav-link::before
+{
+    content: '';
+    position:absolute;
+    bottom:-5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s ease-in-out;
+
+}
+.nav-link::after
+{
+    content: '';
+    position:absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s ease-in-out;
+}
+.nav-link:hover::before
+{
+    width: 48%;
+}
+.nav-link:hover::after
+{
+    width: 48%;
+}
+.nav-item
+{
+    margin-left: 30px;
+}
+.phone_image{
+position: absolute;
+bottom: 0;
+width: 40%;
+}
+.feature_section
+{
+padding: 70px 0;
+}
+.heading
+{
+text-align: center;
+margin-bottom: 50px;
+}
+.heading h5
+{
+
+}
+.heading h1
+{
+
+}
+.heading span
+{
+display:block;
+width: 50px;
+height: 3px;
+margin:auto;
+margin-top: 20px;
+position: relative;
+}
+.heading span::before{
+content: '';
+position: absolute;
+left: 0;
+height: 100%;
+width: 0%;
+background-color: #008ed6;
+top: 0;
+transition: .4s all ease-in-out;
+}
+.heading span::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    top: 0;
+    }
+/*feature section start*/
+.feature_section:hover .heading span::before{
+    width: 48%;
+}
+.feature_section:hover .heading span::after{
+    width: 48%;
+}
+.feature_content
+{
+text-align: center;
+}
+.feature_content icon
+{
+height: 60px;
+width: 60px;
+border: 1px solid #999999;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #999;
+font-size: 20px;
+margin: auto;
+}
+.feature_content h3
+{
+font-size: 25px;
+text-transform: capitalize;
+color:#000;
+margin-bottom: 10px;
+}
+.feature_content p
+{
+
+}
+/*feature section end*/
+/*beautiful section start*/
+.beautiful{
+}
+.beautiful h5{
+color: #008ed6;
+text-transform: uppercase;
+font-size: 14px;
+margin-bottom: 10px;
+font-weight: 700;
+}
+.beautiful h1{
+color: #1a1a1a;
+font-size: 25px;
+margin-bottom: 15px;
+}
+.beautiful p{
+text-align: left;
+margin-bottom: 20px;
+color: #999999;
+font-size: 18px;
+}
+.beautiful span{
+display: block;
+height: 2px;
+width: 50px;
+margin-bottom: 15px;
+position: relative;
+}
+.beautiful span::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+   }
+.beautiful span::after{
+       content: "";
+       position: absolute;
+       top: 0;
+       right: 0;
+       height: 100%;
+       width: 0%;
+       background: #008ed6;
+       transition: .4s all ease-in-out;
+   }
+.beautiful:hover span::before{
+    width: 48%; 
+   }
+.beautiful:hover span::after{
+          width: 48%;
+         }
+.beautiful h6{
+}
+.beautiful ul{
+} 
+.beautiful ul li{
+display: flex;
+margin: 15px 0px;
+} 
+.beautiful ul li i{
+color: #008ed6;
+margin-right: 15px;
+} 
+.beautiful-text{
+margin-top: 60px;
+}
+.beautiful-image{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+.super{
+background: #f2f2f2;
+}
+.super h1{
+color: #1a1a1a;
+font-size: 25px;
+text-align: left;
+margin-bottom: 20px;
+}
+.super h5{
+color: #008ed6;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 13px;
+margin-bottom: 10px;
+text-align: left;
+}
+.super span{
+display: block;
+width: 50px;
+height: 2px;
+margin-bottom: 20px;
+text-align: left;
+position: relative;
+}
+.super span::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+   }
+.super span::after{
+       content: "";
+       position: absolute;
+       top: 0;
+       right: 0;
+       height: 100%;
+       width: 0%;
+       background: #008ed6;
+       transition: .4s all ease-in-out;
+   }
+.super:hover span::before{
+    width: 48%;
+   }
+.super:hover span::after{
+       width: 48%;
+}
+.super p{
+color: #999999;
+font-size: 15px;
+text-align: left;
+}
+.super-content{
+margin-top: 40px;
+}
+.super-image{
+width: 90%;
+}
+/*testimonial_section start*/
+.testimonial_section
+{
+background-image: url(../images/lucid_banner2.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 60px 0;
+}
+.testimonial_section .heading h1
+{
+color: #fff;
+}
+.slide_item{
+
+}
+.slide_item p{
+  color:#fff; 
+}
+.row heading{
+
+}
+.heading h4 {
+    color: #008ed6;
+text-transform: uppercase;
+font-size: 12px;
+margin-bottom: 10px;
+}
+.heading h1 {
+    color: #ffff;
+text-transform: capitalize;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.client{
+    display: flex;
+    margin-top:20px ;
+}
+.client_img{
+width: 50px;
+height:50px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+}
+.client_details{
+
+}
+.client_details h5
+{
+color:#fff
+}
+.client_details p
+{
+
+}
+/*testimonial_section end*/
+
